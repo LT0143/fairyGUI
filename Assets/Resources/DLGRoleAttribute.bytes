@@ -1,0 +1,420 @@
+cu5m1z.xml|868|<component size="17,20" extention="Button">
+  <Button/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <displayList>
+    <graph id="n1" name="n1" xy="0,0" size="17,20" type="rect" lineSize="0" fillColor="#D0D1D7" touchable="false">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width,height"/>
+    </graph>
+    <graph id="n2" name="n2" xy="0,0" size="17,20" type="rect" lineSize="0" fillColor="#888888" touchable="false">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width,height"/>
+    </graph>
+    <graph id="n3" name="n3" xy="0,0" size="17,20" type="rect" lineSize="0" fillColor="#6A6A6A" touchable="false">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width,height"/>
+    </graph>
+  </displayList>
+</component>cu5m20.xml|497|<component size="17,200" extention="ScrollBar">
+  <displayList>
+    <graph id="n1" name="n1" xy="0,0" size="17,200" touchable="false" type="rect" lineSize="0" fillColor="#fff0f0f0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n2" name="bar" xy="0,0" size="17,200">
+      <relation target="" sidePair="height-height"/>
+    </graph>
+    <component id="n3" name="grip" src="cu5m1z" xy="2,20" size="12,20"/>
+  </displayList>
+  <ScrollBar/>
+</component>djfs1k.xml|740|<component size="500,500">
+  <displayList>
+    <graph id="n3" name="n3" xy="210,12" size="276,327" type="rect"/>
+    <text id="n0" name="n0" xy="246,43" size="153,50" font="华文中宋" fontSize="31" align="center" vAlign="middle" autoSize="none" bold="true" text="荣誉称号"/>
+    <component id="n2" name="btn_close" src="jf7411" xy="433,20" size="49,43"/>
+    <list id="n4" name="list_title" xy="237,109" size="238,204" overflow="scroll" scrollBarFlags="4" scrollBarRes="ui://jv7isckycu5m20," lineGap="14" defaultItem="ui://jv7isckytwiv21" autoItemSize="false">
+      <item title="2323"/>
+      <item title="222222"/>
+      <item/>
+      <item/>
+    </list>
+    <graph id="n5" name="holder" xy="166,105" size="100,100"/>
+  </displayList>
+</component>i34l1y.xml|1401|<component size="20,20" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <image id="n1" name="n1" src="jf74q" xy="0,0" size="20,20" color="#66ff00">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="jf74q" xy="0,0" size="20,20">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3" name="n3" src="jf74q" xy="0,0" size="20,20">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4" name="n4" src="jf74q" xy="0,0" size="20,20">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n5" name="tf_title" xy="0,0" size="20,20" fontSize="12" align="center" vAlign="middle" autoSize="none" singleLine="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <loader id="n6" name="icon" xy="0,0" size="20,20" align="center" vAlign="middle">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button downEffect="dark" downEffectValue="0.80"/>
+</component>jf7411.xml|356|<component size="30,30" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="jf74o" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button downEffect="dark" downEffectValue="0.60"/>
+</component>jf7413.xml|1180|<component size="120,120" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="jf74e" xy="0,0" size="120,120">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="jf7412" xy="0,0" size="120,120">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3" name="n3" src="jf7412" xy="0,0" size="120,120">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4" name="n4" src="jf7412" xy="0,0" size="120,110">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n5" name="img_head" xy="0,4" size="123,109" url="ui://jv7isckyjf74d" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button/>
+</component>jf7417.xml|1146|<component size="100,20" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n1" name="n1" xy="0,0" size="100,20" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00f0f0f0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n2" name="n2" xy="0,0" size="100,20" type="rect" lineSize="0" fillColor="#00fafafa">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n3" name="n3" xy="0,0" size="100,20" type="rect" lineSize="0" fillColor="#00cccccc">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n4" name="title" xy="0,0" size="100,24" fontSize="13" vAlign="middle" autoSize="none" singleLine="true" text="钱包：">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button downEffect="dark" downEffectValue="0.80"/>
+</component>jf7418.xml|356|<component size="27,27" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="jf74g" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button downEffect="dark" downEffectValue="0.80"/>
+</component>jf7419.xml|2082|<component size="400,300">
+  <displayList>
+    <image id="n2" name="n2" src="jf74q" xy="163,87" size="126,33"/>
+    <text id="n3" name="tf_country" xy="225,88" size="45,17" fontSize="13" text="ND主城"/>
+    <image id="n14" name="n14" src="jf74q" xy="178,139" size="178,35"/>
+    <image id="n4" name="n4" src="jf74n" xy="210,92"/>
+    <image id="n5" name="n5" src="jf74s" xy="171,107" size="196,36" color="#0099ff"/>
+    <component id="n6" name="btn_head" src="jf7413" xy="73,74"/>
+    <component id="n9" name="钱包" src="jf7417" xy="198,171"/>
+    <image id="n10" name="n10" src="jf74l" xy="340,95" size="50,50"/>
+    <component id="n26" name="sld_experience" src="ngbp1i" xy="226,146" size="122,20">
+      <ProgressBar value="49" max="100"/>
+    </component>
+    <image id="n11" name="n11" src="jf74m" xy="339,98" size="46,52">
+      <relation target="n10" sidePair="topext-bottom"/>
+    </image>
+    <text id="n12" name="tf_vipLevel" xy="366,127" size="12,17" fontSize="12" autoSize="none" text="6">
+      <relation target="n11" sidePair="topext-bottom,right-left"/>
+    </text>
+    <text id="n13" name="tf_name" xy="236,110" size="85,33" fontSize="29" color="#ffffff" bold="true" text="Lemon">
+      <relation target="n5" sidePair="leftext-right,topext-bottom"/>
+    </text>
+    <text id="n15" name="tf_experience" xy="238,147" size="33,17" fontSize="13" text="1800"/>
+    <text id="n16" name="n16" xy="272,147" size="12,17" fontSize="13" text="/"/>
+    <text id="n17" name="tf_upExperience" xy="287,147" size="33,17" fontSize="13" text="3000"/>
+    <text id="n18" name="n18" xy="187,147" size="31,17" fontSize="13" text="经验"/>
+    <text id="n19" name="n19" xy="232,173" size="12,17" fontSize="13" text="$"/>
+    <text id="n20" name="tf_money" xy="247,174" size="40,17" fontSize="13" text="20000"/>
+    <component id="n21" name="n21" src="jf7418" xy="67,141" size="29,29"/>
+    <text id="n22" name="tf_level" xy="72,147" size="21,17" fontSize="13" autoSize="none" text="50">
+      <relation target="n21" sidePair="left-right,topext-bottom"/>
+    </text>
+  </displayList>
+</component>jf74r.xml|7236|<component size="650,340">
+  <controller name="c1" pages="0,,1,,2,,3,,4,,5,,6,,7,,8," selected="8"/>
+  <displayList>
+    <image id="n1" name="img_bgVIP" src="jf74q" xy="260,65" group="n54"/>
+    <text id="n11" name="tf_vipLevel" xy="307,72" size="11,16" group="n54" fontSize="12" text="6"/>
+    <text id="n12" name="tf_VipTitle" xy="277,71" size="29,16" group="n54" fontSize="12" text="VIP:">
+      <relation target="n1" sidePair=""/>
+    </text>
+    <group id="n54" name="grp_vip" xy="260,65" size="191,30" advanced="true">
+      <gearDisplay controller="c1" pages="1,2,3,4,5,6,7,8"/>
+      <gearXY controller="c1" pages="0,1,2,3,4,5,6,7,8" values="200,65|260,65|260,65|260,65|260,65|260,65|260,65|260,65|260,65" default="173,28" tween="true"/>
+    </group>
+    <image id="n15" name="img_bgMoney" src="jf74q" xy="260,95" group="n55"/>
+    <text id="n16" name="n16" xy="314,100" size="11,16" group="n55" fontSize="12" text="$"/>
+    <text id="n17" name="n17" xy="277,100" size="35,16" group="n55" fontSize="12" text="钱包:"/>
+    <text id="n18" name="tf_money" xy="325,100" size="41,16" group="n55" fontSize="12" text="200000"/>
+    <group id="n55" name="grp_money" xy="260,95" size="191,30" advanced="true">
+      <gearDisplay controller="c1" pages="2,3,4,5,6,7,8"/>
+      <gearXY controller="c1" pages="0,1,2,3,4,5,6,7,8" values="200,95|200,95|260,95|260,95|260,95|260,95|260,95|260,95|260,95" default="173,60" tween="true"/>
+    </group>
+    <image id="n22" name="img_bgLevel" src="jf74q" xy="260,125" group="n57"/>
+    <text id="n23" name="tf_level" xy="311,131" size="17,16" group="n57" fontSize="12" text="80"/>
+    <text id="n24" name="n24" xy="277,131" size="35,16" group="n57" fontSize="12" text="等级:"/>
+    <group id="n57" name="grp_level" xy="260,125" size="191,30" advanced="true">
+      <gearDisplay controller="c1" pages="3,4,5,6,7,8"/>
+      <gearXY controller="c1" pages="0,1,2,3,4,5,6,7,8" values="200,125|200,125|200,125|260,125|260,125|260,125|260,125|260,125|260,125" default="119,92" tween="true"/>
+    </group>
+    <image id="n25" name="img_bgExperience" src="jf74q" xy="260,154" group="n58"/>
+    <text id="n26" name="tf_experience" xy="316,159" size="29,16" group="n58" fontSize="12" text="1800"/>
+    <text id="n27" name="n27" xy="277,159" size="35,16" group="n58" fontSize="12" text="经验:"/>
+    <text id="n28" name="n28" xy="350,158" size="11,16" group="n58" fontSize="12" text="/"/>
+    <text id="n29" name="tf_upExperience" xy="367,158" size="29,16" group="n58" fontSize="12" text="3000"/>
+    <group id="n58" name="n58" xy="260,154" size="191,30" advanced="true">
+      <gearDisplay controller="c1" pages="4,5,6,7,8"/>
+      <gearXY controller="c1" pages="0,1,2,3,4,5,6,7,8" values="200,155|200,155|200,155|200,155|260,155|260,155|260,155|260,155|260,154" default="119,124" tween="true"/>
+    </group>
+    <image id="n30" name="img_gender" src="jf74q" xy="260,185" size="90,30" group="n59"/>
+    <text id="n31" name="n31" xy="277,190" size="35,16" group="n59" fontSize="12" text="性别:">
+      <relation target="n30" sidePair="top-middle"/>
+    </text>
+    <text id="n32" name="tf_sex" xy="310,190" size="17,16" group="n59" fontSize="12" text="女">
+      <relation target="n30" sidePair="top-middle"/>
+    </text>
+    <group id="n59" name="grp_sex" xy="260,185" size="90,30" advanced="true">
+      <gearDisplay controller="c1" pages="5,6,7,8"/>
+      <gearXY controller="c1" pages="0,1,2,3,4,5,6,7,8" values="200,185|200,185|200,185|200,185|200,185|260,185|260,185|260,185|260,185" default="173,158" tween="true"/>
+    </group>
+    <image id="n33" name="n33" src="jf74q" xy="345,185" size="103,30" group="n60"/>
+    <text id="n34" name="n34" xy="354,190" size="35,16" group="n60" fontSize="12" text="年龄:">
+      <relation target="n33" sidePair="top-bottom"/>
+    </text>
+    <text id="n35" name="tf_age" xy="392,191" size="17,16" group="n60" fontSize="12" text="24">
+      <relation target="n33" sidePair="top-middle"/>
+    </text>
+    <text id="n36" name="n36" xy="411,191" size="17,16" group="n60" fontSize="12" text="岁">
+      <relation target="n33" sidePair="top-middle"/>
+    </text>
+    <group id="n60" name="grp_age" xy="345,185" size="103,30" advanced="true">
+      <gearDisplay controller="c1" pages="5,6,7,8"/>
+      <gearXY controller="c1" pages="0,1,2,3,4,5,6,7,8" values="285,185|285,185|285,185|285,185|285,185|345,185|345,185|345,185|345,185" default="260,158" tween="true"/>
+    </group>
+    <image id="n37" name="n37" src="jf74q" xy="260,215" size="193,30" group="n61"/>
+    <text id="n38" name="tf_homeland" xy="312,220" size="101,16" group="n61" fontSize="12" text="Lemon's Homeland">
+      <relation target="n37" sidePair="top-middle"/>
+    </text>
+    <text id="n39" name="n39" xy="278,220" size="35,16" group="n61" fontSize="12" text="家园:">
+      <relation target="n37" sidePair="top-middle"/>
+    </text>
+    <group id="n61" name="grp_homeland" xy="260,215" size="193,30" advanced="true">
+      <gearDisplay controller="c1" pages="6,7,8"/>
+      <gearXY controller="c1" pages="0,1,2,3,4,5,6,7,8" values="200,215|200,215|200,215|200,215|200,215|200,215|260,215|260,215|260,215" default="119,190" tween="true"/>
+    </group>
+    <image id="n41" name="n41" src="jf74q" xy="260,245" size="193,50" group="n63">
+      <relation target="n42" sidePair="bottomext-top"/>
+    </image>
+    <text id="n42" name="tf_signature" xy="339,251" size="77,33" group="n63" fontSize="12" leading="5" text="让青春在自己&#xA;的形状里绽放"/>
+    <text id="n43" name="n43" xy="278,255" size="59,16" group="n63" fontSize="12" text="个性签名:">
+      <relation target="n41" sidePair="top-middle"/>
+    </text>
+    <group id="n63" name="grp_signature" xy="260,245" size="193,50" advanced="true">
+      <gearDisplay controller="c1" pages="7,8"/>
+      <gearXY controller="c1" pages="0,1,2,3,4,5,6,7,8" values="200,245|200,245|200,245|200,245|200,245|200,245|200,245|260,245|260,245" default="119,222" tween="true"/>
+    </group>
+    <image id="n49" name="n49" src="jf74q" xy="111,27" size="90,28"/>
+    <text id="n50" name="tf_name" xy="132,28" size="50,20" fontSize="16" bold="true" text="Lemon"/>
+    <component id="n74" name="btn_close" src="jf7411" xy="459,66" visible="false"/>
+    <graph id="n75" name="holde" xy="210,144" size="100,149" visible="false"/>
+    <component id="n80" name="list_title" src="pk9l28" xy="264,339" size="205,165"/>
+    <image id="n81" name="n81" src="jf74q" xy="261,292" size="315,50" group="n84">
+      <relation target="n83" sidePair="rightext-right"/>
+    </image>
+    <text id="n83" name="tf_title" xy="282,305" size="205,20" group="n84" input="true" maxLength="10" fontSize="16" autoSize="none" text="个性签名123456789012"/>
+    <group id="n84" name="grp_title" xy="261,292" size="315,50" advanced="true">
+      <gearDisplay controller="c1" pages="7,8"/>
+      <gearXY controller="c1" pages="0,1,2,3,4,5,6,7,8" values="200,245|200,245|200,245|200,245|200,245|200,245|200,245|260,245|261,292" default="119,222" tween="true"/>
+    </group>
+    <component id="n79" name="btn_title" src="i34l1y" xy="430,294" size="29,23">
+      <gearDisplay controller="c1" pages="8"/>
+      <gearXY controller="c1" pages="8" values="430,294" default="200,294" tween="true"/>
+    </component>
+  </displayList>
+</component>jf74u.fnt|23|info creator=UIBuilder
+md5e23.xml|500|<component size="400,400">
+  <displayList>
+    <component id="n2" name="btn_sendName" src="md5e27" xy="147,157"/>
+    <component id="n4" name="btn_Random" src="oi7u2f" xy="329,86" size="43,40"/>
+    <image id="n5" name="n5" src="jf74g" xy="119,90" size="173,27">
+      <relation target="n3" sidePair="rightext-right"/>
+    </image>
+    <text id="n3" name="tf_name" xy="132,86" size="161,28" input="true" prompt="撒的发生的" maxLength="10" fontSize="24" text="dfasdfasdasdf"/>
+  </displayList>
+</component>md5e27.xml|1151|<component size="100,20" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n1" name="n1" xy="0,0" size="100,20" touchable="false" type="rect" lineSize="0" fillColor="#fff0f0f0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n2" name="n2" xy="0,0" size="100,20" touchable="false" type="rect" lineSize="0" fillColor="#fffafafa">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n3" name="n3" xy="0,0" size="100,20" touchable="false" type="rect" lineSize="0" fillColor="#ffcccccc">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n4" name="title" xy="0,0" size="100,25" fontSize="12" align="center" vAlign="middle" autoSize="none" singleLine="true" text="确定">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>oi7u29.xml|836|<component size="100,20" extention="Button">
+  <Button mode="Radio"/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <displayList>
+    <graph id="n1" name="n1" xy="0,0" size="100,20" type="rect" lineSize="0" fillColor="#3399FF" touchable="false">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width,height"/>
+    </graph>
+    <graph id="n2" name="n2" xy="0,0" size="100,20" type="rect" lineSize="0" fillColor="#CCCCCC" touchable="false">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width,height"/>
+    </graph>
+    <text id="n3" name="title" xy="0,0" size="100,20" fontSize="12" autoSize="none" vAlign="middle" singleLine="true">
+      <relation target="" sidePair="width,height"/>
+    </text>
+  </displayList>
+</component>oi7u2a.xml|482|<component size="150,200">
+  <displayList>
+    <graph id="n1" name="n1" xy="0,0" size="150,200" type="rect" lineSize="1" lineColor="#A0A0A0" fillColor="#F0F0F0" touchable="false">
+      <relation target="" sidePair="width,height"/>
+    </graph>
+    <list id="n2" name="list" xy="0,0" size="150,200" overflow="scroll" defaultItem="ui://jv7isckyoi7u29">
+      <relation target="" sidePair="width"/>
+    </list>
+  </displayList>
+  <relation target="n2" sidePair="height"/>
+</component>oi7u2b.xml|1089|<component size="100,20" extention="ComboBox">
+  <ComboBox dropdown="ui://jv7isckyoi7u2a"/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <displayList>
+    <graph id="n1" name="n1" xy="0,0" size="100,20" type="rect" lineSize="0" fillColor="#F0F0F0" touchable="false">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width,height"/>
+    </graph>
+    <graph id="n2" name="n2" xy="0,0" size="100,20" type="rect" lineSize="0" fillColor="#FAFAFA" touchable="false">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width,height"/>
+    </graph>
+    <graph id="n3" name="n3" xy="0,0" size="100,20" type="rect" lineSize="0" fillColor="#CCCCCC" touchable="false">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width,height"/>
+    </graph>
+    <text id="n4" name="title" xy="0,0" size="80,20" fontSize="12" autoSize="none" vAlign="middle" singleLine="true">
+      <relation target="" sidePair="width,height"/>
+    </text>
+  </displayList>
+</component>oi7u2f.xml|845|<component size="64,64" extention="Button">
+  <Button/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <displayList>
+    <image id="n1" src="oi7u2d" name="n1" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n2" src="oi7u2e" name="n2" xy="8,8">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n3" src="oi7u2e" name="n3" xy="8,8">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n4" src="oi7u2e" name="n4" xy="8,8">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+  </displayList>
+</component>package.xml|2246|<packageDescription id="jv7iscky" name="DLGRoleAttribute">
+  <resources>
+    <atlas id="atlas0" size="256,256" file="atlas0.png"/>
+    <component id="cu5m1z" name="srb_title_grip" size="17,20"/>
+    <component id="cu5m20" name="srb_title" exported="true" size="17,200"/>
+    <component id="djfs1k" name="DLGTitle" exported="true" size="500,500"/>
+    <component id="i34l1y" name="btn_title" size="20,20"/>
+    <component id="jf7411" name="Close" size="30,30"/>
+    <component id="jf7413" name="Hand" size="120,120"/>
+    <component id="jf7417" name="money" size="100,20"/>
+    <component id="jf7418" name="But_Level" size="27,27"/>
+    <component id="jf7419" name="DLGRoleInfo" exported="true" size="400,300"/>
+    <component id="jf74r" name="DLGRoleDetailedInfo" exported="true" size="650,340"/>
+    <component id="md5e23" name="DLGRoleGetName" exported="true" size="400,400"/>
+    <component id="md5e27" name="btn_requiredName" size="100,20"/>
+    <component id="oi7u29" name="ComboBox1_item" size="100,20"/>
+    <component id="oi7u2a" name="ComboBox1_popup" size="150,200"/>
+    <component id="oi7u2b" name="ComboBox1" exported="true" size="100,20"/>
+    <component id="oi7u2f" name="Button2" size="64,64"/>
+    <component id="pk9l28" name="DLGTitle2" exported="true" size="240,200"/>
+    <component id="twiv21" name="grid" size="200,38"/>
+    <component id="twiv22" name="btn_titleListItem" size="214,47"/>
+    <font id="jf74u" name="Font1" exported="true"/>
+    <image id="djfs1s" name="u838" size="39,39"/>
+    <image id="jf7412" name="u1090" size="86,86"/>
+    <image id="jf74d" name="u122" size="80,77"/>
+    <image id="jf74e" name="u120" size="86,86"/>
+    <image id="jf74g" name="u124" size="27,27"/>
+    <image id="jf74l" name="u130" size="48,48"/>
+    <image id="jf74m" name="u132" size="48,48"/>
+    <image id="jf74n" name="u126" size="8,11"/>
+    <image id="jf74o" name="u618" size="30,30"/>
+    <image id="jf74q" name="u607" size="191,30" scale9grid="48,8,96,8" scale="9grid"/>
+    <image id="jf74s" name="u65" size="145,46"/>
+    <image id="ngbp1g" name="srct84" size="143,21" exported="true"/>
+    <image id="oi7u2d" name="u217" size="64,64"/>
+    <image id="oi7u2e" name="u58" size="47,47"/>
+  </resources>
+</packageDescription>pk9l28.xml|312|<component size="240,200">
+  <displayList>
+    <list id="n4" name="list_title" xy="0,0" size="240,200" overflow="scroll" scrollBarFlags="4" scrollBarRes="ui://jv7isckycu5m20," lineGap="3" defaultItem="ui://jv7isckytwiv21" autoItemSize="false">
+      <item title="2323"/>
+    </list>
+  </displayList>
+</component>twiv21.xml|341|<component size="200,38" extention="Button">
+  <displayList>
+    <image id="n3" name="n3" src="jf74q" xy="-4,-4" size="214,47"/>
+    <text id="n4" name="title" xy="45,6" size="110,25" fontSize="19" autoSize="none" text="见习骑士"/>
+    <component id="n1" name="n1" src="twiv22" xy="-3,-6"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>twiv22.xml|385|<component size="214,47" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n2" name="n2" src="djfs1s" xy="168,3">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button mode="Check"/>
+</component>

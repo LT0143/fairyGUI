@@ -1,0 +1,9 @@
+o6am0.xml|179|<component size="400,278">
+  <displayList>
+    <loader id="n1_o6am" name="ldr_movie" xy="3,6" size="390,260" align="center" fill="scaleMatchHeight"/>
+  </displayList>
+</component>package.xml|189|<packageDescription id="27q6mw23" name="Package1">
+  <resources>
+    <component id="o6am0" name="moviePlaying" path="/" size="400,278" exported="true"/>
+  </resources>
+</packageDescription>

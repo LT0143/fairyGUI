@@ -1,0 +1,13 @@
+package.xml|301|<packageDescription id="0i6l49oe" name="language">
+  <resources>
+    <image id="wpw71" name="n2" path="/" size="248,378"/>
+    <component id="wpw70" name="language" path="/" size="400,400" exported="true"/>
+    <atlas id="atlas0" size="256,512" file="atlas0.png"/>
+  </resources>
+</packageDescription>wpw70.xml|314|<component size="400,400">
+  <displayList>
+    <text id="n0_wpw7" name="qd" xy="82,55" size="59,31" fontSize="27" text="确定"/>
+    <text id="n1_wpw7" name="qx" xy="225,53" size="59,31" fontSize="27" text="取消"/>
+    <image id="n3_wpw7" name="n3" src="wpw71" xy="87,111" size="219,254"/>
+  </displayList>
+</component>

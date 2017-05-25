@@ -1,0 +1,65 @@
+ct2rp.xml|403|<component size="179,128" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="ct2ro" xy="44,20"/>
+    <loader id="n2" name="icon" xy="44,19" size="90,91" align="center" vAlign="middle" fill="scale"/>
+    <image id="n3_ct2r" name="n3" src="ct2rn" xy="39,14"/>
+  </displayList>
+  <Button/>
+</component>ct2rw.xml|355|<component size="248,378" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n2" name="icon" xy="0,0" size="248,378" align="center" vAlign="middle">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button/>
+</component>eyrzx.xml|572|<component size="580,535" adaptationTest="FitSize">
+  <displayList>
+    <list id="n1_eyrz" name="list_loop" xy="72,29" size="258,466" overflow="scroll" scrollBarFlags="2" margin="0,0,40,0" scrollBarMargin="1,0,0,0" lineGap="36" defaultItem="ui://vmts0v9ect2rp">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n2_drmu" name="n2" xy="251,70" size="287,41" input="true" fontSize="30" autoSize="none" text="确定"/>
+    <text id="n3_drmu" name="n3" xy="284,153" size="65,34" fontSize="30" text="取消"/>
+  </displayList>
+</component>package.xml|1271|<packageDescription id="vmts0v9e" name="test">
+  <resources>
+    <image id="ct2rn" name="3" path="/Imag/" size="100,100" scale="9grid" scale9grid="25,25,50,50"/>
+    <image id="ct2ro" name="1" path="/Imag/" size="90,91" scale="9grid" scale9grid="23,23,46,46"/>
+    <component id="ct2rp" name="Button10" path="/" size="179,128" exported="true"/>
+    <component id="ct2rw" name="Button11" path="/" size="248,378" exported="true"/>
+    <component id="eyrzx" name="VScroll" path="/" size="580,535" exported="true"/>
+    <component id="wa2di" name="Component1" path="/" size="800,600" exported="true"/>
+    <component id="wa2dj" name="list" path="/" size="800,400" exported="true"/>
+    <image id="ct2rq" name="k19" path="/Imag/" size="90,90" exported="true" scale9grid="23,23,46,46"/>
+    <image id="ct2rr" name="n1" path="/Imag/" size="248,378" exported="true"/>
+    <image id="ct2rs" name="n2" path="/Imag/" size="248,378" exported="true"/>
+    <image id="ct2rt" name="n3" path="/Imag/" size="248,378" exported="true"/>
+    <image id="ct2ru" name="n4" path="/Imag/" size="248,378" exported="true"/>
+    <image id="ct2rv" name="n5" path="/Imag/" size="248,378" exported="true"/>
+    <atlas id="atlas0" size="2048,512" file="atlas0.png"/>
+  </resources>
+</packageDescription>wa2di.xml|515|<component size="800,600">
+  <displayList>
+    <list id="n0_ct2r" name="list_bag" xy="106,116" size="576,355" layout="pagination" overflow="scroll" scroll="horizontal" margin="11,0,29,0" lineGap="18" colGap="18" defaultItem="ui://vmts0v9ect2rp">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n1_ct2r" name="n1" src="ct2rp" xy="350,11">
+      <relation target="" sidePair="center-center"/>
+    </component>
+  </displayList>
+</component>wa2dj.xml|365|<component size="800,400">
+  <displayList>
+    <list id="n3_eyrz" name="list_loop" xy="0,0" size="743,391" layout="row" overflow="scroll" scroll="horizontal" scrollBarFlags="2" clipSoftness="13,0" defaultItem="ui://vmts0v9ect2rw">
+      <relation target="" sidePair="center-center"/>
+      <item icon="ui://vmts0v9ect2rr"/>
+    </list>
+  </displayList>
+</component>
